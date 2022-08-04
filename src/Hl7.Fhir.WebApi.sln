@@ -17,13 +17,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hl7.DemoFileSystemFhirServe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test.WebApi.AspNetCore", "Test.WebApi.AspNetCore\Test.WebApi.AspNetCore.csproj", "{ED8F6692-A85A-49B8-A7CF-44B45ADAF72F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test.WebApi.Owin", "Test.WebApi.Owin\Test.WebApi.Owin.csproj", "{1125F427-BD84-451E-AF1D-C853835052CB}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hl7.DemoFileSystemFhirServer.Owin", "Hl7.DemoFileSystemFhirServer.Owin\Hl7.DemoFileSystemFhirServer.Owin.csproj", "{79E3D0DC-BFDF-451E-89DE-52AF77F2F416}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hl7.Fhir.R4.WebApi.AspNetCore", "Hl7.Fhir.WebApi.AspNetCore\Hl7.Fhir.R4.WebApi.AspNetCore.csproj", "{7825ADC5-51C5-403A-B5D2-FF1E5B69AA77}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hl7.Fhir.R4.WebApi.Owin", "Hl7.Fhir.WebApi.Owin\Hl7.Fhir.R4.WebApi.Owin.csproj", "{F219EEF4-570C-4DFE-9EE4-D11D5D093D5B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hl7.Fhir.R4.WebApi.Support", "Hl7.Fhir.WebApi.Support\Hl7.Fhir.R4.WebApi.Support.csproj", "{1752B9AD-8F42-4A19-88A5-BD1F68C98228}"
 EndProject
@@ -32,12 +26,6 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hl7.Fhir.R4.HttpClient", "Hl7.Fhir.HttpClient\Hl7.Fhir.R4.HttpClient.csproj", "{0D50F573-7AF8-416D-8364-7EDD21F5503C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hl7.Fhir.R4.DemoFileSystemServer", "Hl7.Fhir.DemoFileSystemServer\Hl7.Fhir.R4.DemoFileSystemServer.csproj", "{1B81B226-5E4E-41C4-B85C-D6605D60C918}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hl7.Fhir.R4.DemoSqliteServer", "Hl7.Fhir.DemoSqliteServer\Hl7.Fhir.R4.DemoSqliteServer.csproj", "{BB361399-9AF7-4C48-8DC3-715D6F77507C}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Health.Fhir.Facade.SqlServer", "Microsoft.Health.Fhir.Facade.SqlServer\Microsoft.Health.Fhir.Facade.SqlServer.csproj", "{473462AB-2895-4BA1-BF1C-8535A9D450C4}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Health.Fhir.Facade", "Microsoft.Health.Fhir.Facade\Microsoft.Health.Fhir.Facade.csproj", "{FB918B25-C736-4C52-BE21-9D9C756C5564}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,22 +41,10 @@ Global
 		{ED8F6692-A85A-49B8-A7CF-44B45ADAF72F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED8F6692-A85A-49B8-A7CF-44B45ADAF72F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED8F6692-A85A-49B8-A7CF-44B45ADAF72F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1125F427-BD84-451E-AF1D-C853835052CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1125F427-BD84-451E-AF1D-C853835052CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1125F427-BD84-451E-AF1D-C853835052CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1125F427-BD84-451E-AF1D-C853835052CB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{79E3D0DC-BFDF-451E-89DE-52AF77F2F416}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{79E3D0DC-BFDF-451E-89DE-52AF77F2F416}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{79E3D0DC-BFDF-451E-89DE-52AF77F2F416}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{79E3D0DC-BFDF-451E-89DE-52AF77F2F416}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7825ADC5-51C5-403A-B5D2-FF1E5B69AA77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7825ADC5-51C5-403A-B5D2-FF1E5B69AA77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7825ADC5-51C5-403A-B5D2-FF1E5B69AA77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7825ADC5-51C5-403A-B5D2-FF1E5B69AA77}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F219EEF4-570C-4DFE-9EE4-D11D5D093D5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F219EEF4-570C-4DFE-9EE4-D11D5D093D5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F219EEF4-570C-4DFE-9EE4-D11D5D093D5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F219EEF4-570C-4DFE-9EE4-D11D5D093D5B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1752B9AD-8F42-4A19-88A5-BD1F68C98228}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1752B9AD-8F42-4A19-88A5-BD1F68C98228}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1752B9AD-8F42-4A19-88A5-BD1F68C98228}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -85,18 +61,6 @@ Global
 		{1B81B226-5E4E-41C4-B85C-D6605D60C918}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B81B226-5E4E-41C4-B85C-D6605D60C918}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B81B226-5E4E-41C4-B85C-D6605D60C918}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BB361399-9AF7-4C48-8DC3-715D6F77507C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BB361399-9AF7-4C48-8DC3-715D6F77507C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BB361399-9AF7-4C48-8DC3-715D6F77507C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BB361399-9AF7-4C48-8DC3-715D6F77507C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{473462AB-2895-4BA1-BF1C-8535A9D450C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{473462AB-2895-4BA1-BF1C-8535A9D450C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{473462AB-2895-4BA1-BF1C-8535A9D450C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{473462AB-2895-4BA1-BF1C-8535A9D450C4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FB918B25-C736-4C52-BE21-9D9C756C5564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FB918B25-C736-4C52-BE21-9D9C756C5564}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FB918B25-C736-4C52-BE21-9D9C756C5564}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FB918B25-C736-4C52-BE21-9D9C756C5564}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
